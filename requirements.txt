@@ -96,7 +96,7 @@ tornado==6.4
 tqdm==4.66.5
 traitlets==5.14.1
 typing_extensions==4.12.2
-tzdata==2022.1
+
 urllib3==1.26.10
 virtualenv==20.26.3
 wcwidth==0.2.13
