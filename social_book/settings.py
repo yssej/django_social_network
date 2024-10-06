@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'social_book.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": 'social_media2',
-        "USER": 'postgres',
-        "PASSWORD": 'root',
-        "HOST": 'localhost',
+        "NAME": 'social_media_kffk',
+        "USER": 'social_media_kffk_user',
+        "PASSWORD": 'wxs4Nuha3Mbb8kJhkyJEQf7K4bW67neR',
+        "HOST": 'dpg-cs0vrpa3esus73995uh0-a',
         "PORT": '5432',
     }
 }
