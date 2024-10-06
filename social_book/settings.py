@@ -78,14 +78,13 @@ WSGI_APPLICATION = 'social_book.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": 'defaultdb',
-        "USER": 'avnadmin',
-        "PASSWORD": 'AVNS_RvslTMWcVhnMP4HCMql',
-        "HOST": 'socialmedia-jessyowen48-35ad.h.aivencloud.com',
-        "PORT": '22066',
+        "NAME": 'social_media_kffk',
+        "USER": 'social_media_kffk_user',
+        "PASSWORD": 'wxs4Nuha3Mbb8kJhkyJEQf7K4bW67neR',
+        "HOST": 'dpg-cs0vrpa3esus73995uh0-a',
+        "PORT": '5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
