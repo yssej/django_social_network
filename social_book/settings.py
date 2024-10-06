@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'social_book.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": 'social_media2',
-        "USER": 'postgres',
-        "PASSWORD": 'root',
-        "HOST": 'localhost',
-        "PORT": '5432',
+        "NAME": 'defaultdb',
+        "USER": 'avnadmin',
+        "PASSWORD": 'AVNS_RvslTMWcVhnMP4HCMql',
+        "HOST": 'socialmedia-jessyowen48-35ad.h.aivencloud.com',
+        "PORT": '22066',
     }
 }
 
