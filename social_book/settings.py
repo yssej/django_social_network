@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-y6on4&^y1+^c$5_h4eh-i2fz-c6jmagos9$5b!o!%8=08s#!tm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -69,13 +69,6 @@ TEMPLATES = [
     },
 ]
 
-
-SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
-
-TEMPLATE_DIRS = (
-    os.path.join(SETTINGS_PATH, 'templates'),
-)
-
 WSGI_APPLICATION = 'social_book.wsgi.application'
 
 
@@ -85,6 +78,10 @@ WSGI_APPLICATION = 'social_book.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
+        # "NAME": 'social_media2',
+        # "USER": 'postgres',
+        # "PASSWORD": 'root',
+        # "HOST": 'localhost',
         "NAME": 'social_media_kffk',
         "USER": 'social_media_kffk_user',
         "PASSWORD": 'wxs4Nuha3Mbb8kJhkyJEQf7K4bW67neR',
@@ -92,6 +89,7 @@ DATABASES = {
         "PORT": '5432',
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
